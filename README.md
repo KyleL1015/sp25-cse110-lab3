@@ -1,1 +1,1 @@
-# Lab 2 - Starter
+https://kylel1015.github.io/CSE110Lab2/
