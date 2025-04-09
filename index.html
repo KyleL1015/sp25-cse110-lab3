@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel = "icon" href = "favicon.ico" />
+    <title>Kyle's Meeting Notes</title>
+  </head>
+  <body>
+    <header>
+        <h1><strong>KYLE'S MEETING NOTES</strong></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href = "https://github.com/KyleL1015">My Github</a></li>
+                <li><a href="https://app.slack.com/client/T08KEHP2CMP/C08M9FDDC9H">Group 4 Slack</a></li>
+                <li>
+                    <details>
+                        <summary>Group 4 Team Members!</summary>
+                        <ul>
+                            <li>TA: Tony Li</li>
+                            <li>Team Lead: Meruzhan Sargsyan</li>
+                            <li>Arman Nurbalin</li>
+                            <li>Arul Mather</li>
+                            <li>Eric Nguyen</li>
+                            <li>Eve Nguyen</li>
+                            <li>Jude Gamba</li>
+                            <li>Kyle Long</li>
+                            <li>Mohamed Hamdi</li>
+                            <li>Richard James</li>
+                            <li>Xiao Chen</li>
+                        </ul>
+                    </details>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <main>
+            <section>
+                <h2><em>Met Group 4: <span id = 'date'>4/8/2025</span></em></h2>
+                <p>Today we met our team for the first time and covered the basic components
+                    of teamwork in the context of SWE.<br>We did a lot of conversing and 
+                    getting to know each other in order to build a strong foundation for
+                    future teamwork.</p>
+                <audio src = "talking.mp3" controls>Your bworser does not support the audio tag.</audio><br>
+                <img src = "image.png" alt = "DON'T BE BATMAN, COMMUNICATE!!!" width = "640" height = "520">
+            </section>
+            <section>
+                <h2><i>Lecture 2: 4/3/2025</i></h2>
+                <ol>
+                    <li><h3>SE Productivity is about people first!!</h3></li>
+                    <li><h3>Myths about 10x Developers</h3></li>
+                    <li><h3>How to become the T-shaped dev</h3></li>
+                    <li><h3> No team meeting yet here's a cat</h3>
+                        <video src = "sunglasscat.mp4" controls width="640" height="360">Your browser does not support the video tag.</video>
+                    </li>
+                </ol>
+            </section>>
+        </main>
+    </div>
+    <footer>
+        <form action = "/submit" method = "post">
+            <fieldset>
+                <legend>Personal Info</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br><br>
+              </fieldset>
+            
+              <fieldset>
+                <legend>Preferences</legend>
+                <p>Favorite Color:</p>
+                <input type="radio" id="red" name="color" value="red">
+                <label for="red">Red</label>
+                <input type="radio" id="blue" name="color" value="blue">
+                <label for="blue">Blue</label>
+                <input type="radio" id="green" name="color" value="green">
+                <label for="green">Green</label><br><br>
+            
+                <p>Hobbies:</p>
+                <input type="checkbox" id="reading" name="hobby" value="reading">
+                <label for="reading">Reading</label>
+                <input type="checkbox" id="gaming" name="hobby" value="gaming">
+                <label for="gaming">Gaming</label>
+                <input type="checkbox" id="sports" name="hobby" value="sports">
+                <label for="sports">Sports</label><br><br>
+              </fieldset>
+            
+              <fieldset>
+                <legend>Extra Info</legend>
+                <label for="bio">Short Bio:</label><br>
+                <textarea id="bio" name="bio" rows="4" cols="40"></textarea><br><br>
+                <label for="browser">Choose a browser:</label>
+                <input list="browsers" id="browser" name="browser">
+                <datalist id="browsers">
+                  <option value="Chrome">
+                  <option value="Firefox">
+                  <option value="Safari">
+                  <option value="Edge">
+                  <option value="Opera">
+                </datalist><br><br>
+            
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                  <option value="usa">USA</option>
+                  <option value="canada">Canada</option>
+                  <option value="uk">UK</option>
+                  <option value="australia">Australia</option>
+                </select><br><br>
+              </fieldset>
+            
+              <button type="submit">Submit Form</button>
+        </form>
+    </footer>
+  </body>
+</html>
