@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel = "icon" href = "favicon.ico" />
+    <link rel="stylesheet" href="styles.css">
     <title>Kyle's Meeting Notes</title>
   </head>
   <body>
@@ -17,7 +18,7 @@
                 <li>
                     <details>
                         <summary>Group 4 Team Members!</summary>
-                        <ul>
+                        <ul class = "team-list">
                             <li>TA: Tony Li</li>
                             <li>Team Lead: Meruzhan Sargsyan</li>
                             <li>Arman Nurbalin</li>
@@ -40,15 +41,16 @@
             <section>
                 <h2><em>Met Group 4: <span id = 'date'>4/8/2025</span></em></h2>
                 <p>Today we met our team for the first time and covered the basic components
-                    of teamwork in the context of SWE.<br>We did a lot of conversing and 
+                    of teamwork in the context of SWE.We did a lot of conversing and 
                     getting to know each other in order to build a strong foundation for
                     future teamwork.</p>
+                <p> Powell had us do some activities and we realized our team is very diverse! WE also have a lot of very strong frontend people.</p>
                 <audio src = "talking.mp3" controls>Your bworser does not support the audio tag.</audio><br>
-                <img src = "image.png" alt = "DON'T BE BATMAN, COMMUNICATE!!!" width = "640" height = "520">
+                <img id = "batman" src = "image.png" alt = "DON'T BE BATMAN, COMMUNICATE!!!" width = "640" height = "520">
             </section>
             <section>
                 <h2><i>Lecture 2: 4/3/2025</i></h2>
-                <ol>
+                <ol class = "lecture-notes">
                     <li><h3>SE Productivity is about people first!!</h3></li>
                     <li><h3>Myths about 10x Developers</h3></li>
                     <li><h3>How to become the T-shaped dev</h3></li>
@@ -59,6 +61,7 @@
             </section>>
         </main>
     </div>
+    
     <footer>
         <form action = "/submit" method = "post">
             <fieldset>
