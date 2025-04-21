@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'fancyHandwriting';          
+    src: url('Knewave-Regular.ttf') format('truetype');
+    font-weight: normal;                
+    font-style: normal;                  
+}
+
+@media (min-width: 600px) {
+    video:active{
+        width: 1500px;
+        height: 1500px;
+    }
+    h1{
+        position: fixed;
+        top: 5px;
+        left: 730px;
+    }
+}
+
+body {
+    background-color: rgb(0,0,0);
+    color: white;
+}
+
+*{
+    font-family: 'fancyHandwriting', sans-serif;
+}
+
+/*h1 ~ nav{
+    color: #ffa500;
+}
+
+nav:hover{
+    color:rgb(0, 255, 34)
+}*/
+
+h1 ~ nav{
+    color: #ffa500;
+  
+    &:hover {
+        color:rgb(0, 255, 34)
+    }
+  }
+
+h1 {
+    color: purple; /*fallback*/
+    color: color-mix(in display-p3, color(display-p3 1 0 0) 50%, color(display-p3 0 0 1) 50%); /*Wider Gamut*/
+    text-decoration: underline white;
+    text-align: center;
+}
+
+section p{
+    color: rgb(81, 255, 0);
+}
+
+details > summary{
+    display: block;
+    text-align: center;
+}
+
+audio[src$=".mp3"]{
+    display: block;
+    margin: 0 auto;
+}
+
+h2, p{
+    text-align: center;
+    display: block;
+}
+
+.team-list{
+    color: hsla(50, 100%, 50%, 1);
+    border-width: 3px;
+    border-style: double;
+    border-color: yellowgreen;
+    padding: 2rem;
+    margin: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+#batman{
+    max-width: 700px;
+    border-radius: 1in;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+}
+
+ol.lecture-notes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;            
+    grid-template-rows: auto auto;              
+    gap: 10px;  
+}
+
+li:has(h3){
+    color:rgb(205, 50, 166)
+}
+
+h3 + video{
+    position: relative;
+    left: 20px;
+    border: 3px dashed rgb(60, 50, 205);
+    border-radius:  3pc;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+form{
+    display: none;
+}
